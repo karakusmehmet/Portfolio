@@ -93,7 +93,7 @@ body {
 section.home {
   display: flex;
   align-items: center;
-  background: url("/images/thor.jpeg") no-repeat;
+  background: #081b29;
   background-size: cover;
   background-position: center;
 }
@@ -314,7 +314,7 @@ section.about .about-content {
 section.about .about-content h3 {
   position: relative;
   display: inline-block;
-  font-size: 1.6rem;
+  font-size: 2.8rem;
 }
 section.about .about-content p {
   position: relative;
@@ -499,6 +499,9 @@ section.skills .skills-row .skills-column:nth-child(1) .skills-content .progress
 section.skills .skills-row .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
   width: 75%;
 }
+section.skills .skills-row .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
+  width: 55%;
+}
 section.skills .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
   width: 90%;
 }
@@ -509,7 +512,7 @@ section.skills .skills-row .skills-column:nth-child(2) .skills-content .progress
   width: 65%;
 }
 section.skills .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-  width: 75%;
+  width: 45%;
 }
 section.skills .skills-row .skills-column .title {
   position: relative;
@@ -795,6 +798,12 @@ h3 span {
   background: var(--bg-color);
   z-index: -1;
   transition: 0.5s;
+}
+
+.profil-pic {
+  margin-left: 250px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 /* PARTNERS */

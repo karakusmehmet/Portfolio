@@ -45,3 +45,14 @@ window.onscroll = () => {
     this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight
   );
 };
+
+function sendMail() {
+  let parms = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    phoneNumber: document.getElementById("phoneNumber").value,
+    context: document.getElementById("context").value,
+  };
+  emailjs.send("service_sspm7px", "template_5ob7ipy", parms);
+}
